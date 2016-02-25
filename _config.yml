@@ -1,6 +1,6 @@
 name: SeattlePotGuy
 favicon: null
-layout_spectrum: 0.25656
+layout_spectrum: 1
 typography_spectrum: 0.34676
 cta:
   domain: null
@@ -21,8 +21,8 @@ color:
     - '#7cb4c1'
     - '#5f819f'
     - '#404c6a'
-  brandStrength: 0.6875
+  brandStrength: 1
   lightness: 0.5523791378363967
   saturation: 0.125
-  rhythmicContrast: 0.75
+  rhythmicContrast: 0.5
 purpose: []
