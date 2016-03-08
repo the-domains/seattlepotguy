@@ -1,28 +1,40 @@
-name: SeattlePotGuy
 favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.34676
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: SeattlePotGuy
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 1
+  brandStrength: 1
+  lightness: 1
   brandColors:
     - '#dce0e3'
     - '#251f27'
     - '#7cb4c1'
     - '#5f819f'
     - '#404c6a'
-  brandStrength: 1
-  lightness: 0.5523791378363967
-  saturation: 0.125
-  rhythmicContrast: 0.5
-purpose: []
+  rhythmicContrast: 0.3154122
+typography_spectrum: 0.09856631
+layout_spectrum: 1
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
